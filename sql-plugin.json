@@ -124,5 +124,9 @@
             "label": "DATE",
             "value": "DATE"
         }
-    ]
+    ],
+    "codeTemplate": {
+        "baseUrl": "",
+        "domain": ""
+    }
 }
