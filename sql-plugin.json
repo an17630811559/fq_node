@@ -1,0 +1,128 @@
+{
+    "commField": [
+        {
+            "field": "",
+            "type": "VARCHAR2",
+            "length": "10",
+            "notnull": true,
+            "notes": "主键ID"
+        },
+        {
+            "field": "ADDTERMID",
+            "type": "VARCHAR2",
+            "length": "20",
+            "notnull": true,
+            "notes": "创建终端ID: 记录创建终端ID"
+        },
+        {
+            "field": "ADDUSERID",
+            "type": "VARCHAR2",
+            "length": "10",
+            "notnull": true,
+            "notes": "创建用户ID: 记录创建登陆用户ID"
+        },
+        {
+            "field": "ADDAPPID",
+            "type": "VARCHAR2",
+            "length": "10",
+            "notnull": true,
+            "notes": "创建程序ID: 记录创建程序ID"
+        },
+        {
+            "field": "ADDTIME",
+            "type": "DATE",
+            "length": "",
+            "notnull": true,
+            "notes": "创建时间: 创建时间(yyyy-mm-dd hh24:mi:ss)"
+        },
+        {
+            "field": "UPDTERMID",
+            "type": "VARCHAR2",
+            "length": "20",
+            "notnull": false,
+            "notes": "操作终端ID: 最后修改终端ID"
+        },
+        {
+            "field": "UPDUSERID",
+            "type": "VARCHAR2",
+            "length": "10",
+            "notnull": false,
+            "notes": "操作用户ID: 最后修改登陆用户ID"
+        },
+        {
+            "field": "UPDAPPID",
+            "type": "VARCHAR2",
+            "length": "10",
+            "notnull": false,
+            "notes": "操作程序ID: 最后修改程序ID"
+        },
+        {
+            "field": "UPDTIME",
+            "type": "DATE",
+            "length": "",
+            "notnull": false,
+            "notes": "操作时间: 最后修改时间(yyyy-mm-dd hh24:mi:ss)"
+        },
+        {
+            "field": "REVISION",
+            "type": "NUMBER",
+            "length": "",
+            "notnull": true,
+            "default": 0,
+            "notes": "版本号: 修改时，原版本号+1，用于排他操作"
+        },
+        {
+            "field": "UICOMPANYCD",
+            "type": "VARCHAR2",
+            "length": "22",
+            "notnull": true,
+            "notes": "企业唯一码"
+        },
+        {
+            "field": "ITFTYPE",
+            "type": "VARCHAR2",
+            "length": "20",
+            "notnull": false,
+            "notes": "接口类型"
+        },
+        {
+            "field": "ITFRECNUM",
+            "type": "NUMBER",
+            "length": "10",
+            "notnull": false,
+            "notes": "接口记录行数"
+        },
+        {
+            "field": "ITFDATE",
+            "type": "DATE",
+            "length": "",
+            "notnull": false,
+            "notes": "接口日期"
+        },
+        {
+            "field": "ITFBATCHNO",
+            "type": "VARCHAR2",
+            "length": "20",
+            "notnull": false,
+            "notes": "接口批次码"
+        }
+    ],
+    "fieldType": [
+        {
+            "label": "VARCHAR2",
+            "value": "VARCHAR2"
+        },
+        {
+            "label": "CHAR",
+            "value": "CHAR"
+        },
+        {
+            "label": "NUMBER",
+            "value": "NUMBER"
+        },
+        {
+            "label": "DATE",
+            "value": "DATE"
+        }
+    ]
+}
